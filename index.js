@@ -128,7 +128,8 @@ console.log(paintStartwithArray(5));
 
 
 
-// While loop
+// While loop - wird genutzt wenn ihr nicht einfach hochzählt, sondern der Abbruch erst im Laufe des Loops entsteht
+// Beispiel hier der loop läuft solange bis die Zufallszahl(0-99) 10 wird. Der counter zählt die durchläufe
 let counter = 0;
 let i=0;
 while(i !== 10){
